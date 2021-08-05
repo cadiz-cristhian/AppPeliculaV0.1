@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppPeliculaV0.1</string>
+    <string name="main_nombre">AppPeliculas</string>
+    <string name="button_ingresar">Ingresar</string>
+    <string name="button_registrarse">Registrarse</string>
+    <string name="button_opciones">Opciones</string>
+    <string name="button_comenzar">Comenzar</string>
+    <string name="button_revisar">Revisar listas</string>
+    <string name="proximamente">Proximamente</string>
+    <string name="TxtAviso">Este cuestionario consta de 15 preguntas aleatorias. Como resultado obtendrás una lista de peliculas que te podrían gustar.</string>
+    <string name="button_Siguiente">Siguiente</string>
+    <string name="button_Finalizar">Finalizar</string>
+
+
+</resources>
