@@ -25,9 +25,7 @@ public class CuestionarioController
 
 
 
-    HashMap<Integer,Integer> resp = new HashMap<Integer,Integer>(); //Hashmap que almacena las respuestas a las preguntas
-    int total;
-    String generoElegido;
+
 
 
 
