@@ -1,5 +1,7 @@
 package Controller;
 
+import com.cris.apppeliculav01.R;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -12,16 +14,17 @@ public class PeliculaController {
     public void generarTerror()
     {
         pelicula = new ArrayList<>();
-        pelicula.add(new Pelicula(1,"Psicosis","1960","Alfred Hitchcock",8.5,"Terror"));
-        pelicula.add(new Pelicula(2,"Alien, el octavo pasajero","1979","Ridley Scott",8.4,"Terror"));
-        pelicula.add(new Pelicula(3,"Tumbbad","2018","Rahi Anil Barve",8.3,"Terror"));
-        pelicula.add(new Pelicula(4,"I saw the devil","2010","Jee-woon Kim",7.8,"Terror"));
-        pelicula.add(new Pelicula(5,"Get Out","2017","Jordan Peele ",7.7,"Terror"));
-        pelicula.add(new Pelicula(6,"A nightmare on elm street","1984","Wes Craven",7.5,"Terror"));
-        pelicula.add(new Pelicula(7,"Texas Chainsaw Massacre","1974","Tobe Hooper",7.5,"Terror"));
-        pelicula.add(new Pelicula(8,"EraserHead","1977","David Lynch",7.4,"Terror"));
-        pelicula.add(new Pelicula(9,"Hereditary","2018","Ari Aster",7.3,"Terror"));
-        pelicula.add(new Pelicula(10,"Midsommar","2019","Ari Aster",7.1,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.psicosis,"Psicosis","1960","Alfred Hitchcock",8.5,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.alien_poster,"Alien, el octavo pasajero","1979","Ridley Scott",8.4,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.tumbbad,"Tumbbad","2018","Rahi Anil Barve",8.3,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.isawthedevil,"I saw the devil","2010","Jee-woon Kim",7.8,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.get_out,"Get Out","2017","Jordan Peele ",7.7,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.pesadilla,"A nightmare on elm street","1984","Wes Craven",7.5,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.texascm,"Texas Chainsaw Massacre","1974","Tobe Hooper",7.5,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.eraserhead,"EraserHead","1977","David Lynch",7.4,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.hereditary,"Hereditary","2018","Ari Aster",7.3,"Terror"));
+        pelicula.add(new Pelicula(R.drawable.midsommar,"Midsommar","2019","Ari Aster",7.1,"Terror"));
+
     }
     public void generarComedia()
     {

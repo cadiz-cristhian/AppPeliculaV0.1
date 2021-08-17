@@ -20,6 +20,7 @@ public class DetalleView extends AppCompatActivity {
     String t = null;
     String g = null;
     String nombre = null;
+    int imagen = 0;
     PeliculaController p = new PeliculaController();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +43,11 @@ public class DetalleView extends AppCompatActivity {
             for(int i=0;i<p.pelicula.size();i++)
             {
                 nombre = p.pelicula.get(i).nombre;
+                imagen = p.pelicula.get(i).imagen;
+
                 if(nombre.equals(t))
                 {
+
                     cargarInfo();
                 }
             }
@@ -54,9 +58,11 @@ public class DetalleView extends AppCompatActivity {
             for(int i=0;i<p.pelicula.size();i++)
             {
                 nombre = p.pelicula.get(i).nombre;
+                imagen = p.pelicula.get(i).imagen;
                 if(nombre.equals(t))
                 {
-                    cargarInfo();
+
+
                 }
             }
         }
@@ -95,6 +101,10 @@ public class DetalleView extends AppCompatActivity {
     public void cargarInfo()
     {
         titulo.setText(nombre);
+        portada.setImageResource(imagen);
+
+
+
 
     }
 }

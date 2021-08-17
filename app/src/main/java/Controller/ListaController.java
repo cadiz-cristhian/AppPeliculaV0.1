@@ -87,6 +87,8 @@ public class ListaController extends RecyclerView.Adapter<ListaController.ViewHo
             nombre.setText(item.getNombre());
             director.setText(item.getDirector());
             detalle.setText("Detalle");
+            poster.setImageResource(item.getImagen());
+
         }
 
         @Override

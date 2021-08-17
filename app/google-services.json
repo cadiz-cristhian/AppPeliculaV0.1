@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "424530770611",
+    "project_id": "apppeliculasandroid",
+    "storage_bucket": "apppeliculasandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424530770611:android:0db84201335dbf7b2a0ec6",
+        "android_client_info": {
+          "package_name": "com.cris.apppeliculav01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424530770611-9427ft2m1ioc09dprfq8mq3r7k8tdc9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cris.apppeliculav01",
+            "certificate_hash": "2c3faafc810603a08f5d68e8ffbf71c30a6981f4"
+          }
+        },
+        {
+          "client_id": "424530770611-g93bii1jcm4crokbdio5c0hnc6dh6mob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvkCNxPc3DivGMm5OaZghTrjihI53VSGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424530770611-g93bii1jcm4crokbdio5c0hnc6dh6mob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -146,8 +146,6 @@ public class CuestionarioView extends AppCompatActivity {
         }else if(mayor == contadorAccion){
             generoElegido = "Accion";
         }
-            Toast toast = Toast.makeText(getApplicationContext(), "Tu genero elegido es: " + mayor+ generoElegido, Toast.LENGTH_SHORT);
-            toast.show();
         }
     }
     public void pasarResultado(View view)
