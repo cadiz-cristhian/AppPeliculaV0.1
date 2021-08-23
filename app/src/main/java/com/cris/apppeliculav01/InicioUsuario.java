@@ -19,7 +19,7 @@ public class InicioUsuario extends AppCompatActivity {
         startActivity(siguiente);
     }
     public void pasarCuestionario (View view) {
-        Intent siguiente = new Intent(this, InicioCuestionario.class);
+        Intent siguiente = new Intent(this, CuestionarioView.class);
         startActivity(siguiente);
     }
     public void pasarRevisar (View view) {

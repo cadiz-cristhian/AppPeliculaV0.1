@@ -8,65 +8,71 @@
     android:background="@color/primaryColor"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txtTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        android:text="@string/main_nombre"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnIngresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="220dp"
-        android:backgroundTint="@color/primaryDarkColor"
-        android:onClick="siguienteAc"
-        android:rotationX="0"
-        android:text="@string/button_ingresar"
-        android:textColor="@color/primaryTextColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="132dp"
+            android:text="@string/main_nombre" />
 
-    <Button
-        android:id="@+id/btnRegistrarse"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="@color/primaryDarkColor"
-        android:text="@string/button_registrarse"
-        android:textColor="@color/primaryTextColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnIngresar" />
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:indeterminate="true"/>
 
-    <EditText
-        android:id="@+id/etxtUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="85dp"
-        android:ems="10"
-        android:hint="Usuario"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+        <EditText
+            android:id="@+id/etxtUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="85dp"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="textEmailAddress" />
 
-    <EditText
-        android:id="@+id/etxtPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="@+id/etxtUsuario"
-        app:layout_constraintTop_toBottomOf="@+id/etxtUsuario" />
+        <EditText
+            android:id="@+id/etxtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:hint="Contraseña"
+
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/primaryDarkColor"
+            android:onClick="registro"
+            android:text="@string/button_registrarse"
+            android:textColor="@color/primaryTextColor" />
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/primaryDarkColor"
+            android:onClick="login"
+            android:layout_gravity="center"
+            android:rotationX="0"
+            android:text="@string/button_ingresar"
+            android:textColor="@color/primaryTextColor" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

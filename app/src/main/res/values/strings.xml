@@ -10,6 +10,8 @@
     <string name="TxtAviso">Este cuestionario consta de 15 preguntas aleatorias. Como resultado obtendrás una lista de peliculas que te podrían gustar.</string>
     <string name="button_Siguiente">Siguiente</string>
     <string name="button_Finalizar">Finalizar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

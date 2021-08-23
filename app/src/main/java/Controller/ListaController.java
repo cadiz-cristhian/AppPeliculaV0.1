@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -86,6 +87,8 @@ public class ListaController extends RecyclerView.Adapter<ListaController.ViewHo
             nombre.setText(item.getNombre());
             director.setText(item.getDirector());
             detalle.setText("Detalle");
+            poster.setImageResource(item.getImagen());
+
         }
 
         @Override
